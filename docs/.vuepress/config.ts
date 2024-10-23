@@ -1,6 +1,7 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
-import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import path from 'path'
 
 const googleStructuredDataString = `
@@ -29,6 +30,10 @@ const googleStructuredDataString = `
 `
 
 export default defineUserConfig({
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {}
+  }),
   // site config
   base: '/line-pay-merchant/',
   lang: 'en-US',
@@ -54,9 +59,6 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-Z8SDFSHFWV'
-    }),
     sitemapPlugin({
       hostname: 'https://enylin.github.io/line-pay-merchant'
     })
