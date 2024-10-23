@@ -408,7 +408,7 @@ describe('auth-http-client', () => {
           params: { transactionId }
         })
 
-        expect(res.config.headers).toEqual(header)
+        expect(res.config.headers.toJSON()).toEqual(header)
       })
     })
 
@@ -453,7 +453,7 @@ describe('auth-http-client', () => {
           transactionId
         })
 
-        expect(res.config.headers).toEqual(header)
+        expect(res.config.headers.toJSON()).toEqual(header)
       })
     })
 
@@ -479,7 +479,7 @@ describe('auth-http-client', () => {
           transactionId
         })
 
-        expect(res.config.headers).toEqual(header)
+        expect(res.config.headers.toJSON()).toEqual(header)
       })
     })
   })

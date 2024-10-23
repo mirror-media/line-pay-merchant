@@ -1,5 +1,6 @@
 import axios, {
   AxiosInstance,
+  AxiosInterceptorManager,
   AxiosRequestConfig,
   AxiosResponse,
   AxiosResponseTransformer
@@ -135,7 +136,9 @@ export function createAuthHttpClient(
   })
 
   // add auth headers
-  axiosInstance.interceptors.request.use(config =>
+  const request: AxiosInterceptorManager<AxiosRequestConfig> =
+    axiosInstance.interceptors.request
+  request.use(config =>
     config.method === 'get'
       ? handleGetRequest(merchantConfig, config)
       : config.method === 'post'
