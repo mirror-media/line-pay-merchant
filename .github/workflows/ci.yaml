@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: npx pretty-quick --staged
-      - run: npx eslint
+      - run: npx eslint@^8
       - run: npm i typescript
       - run: npx tsc --noemit -p tsconfig.json
   run-test:
