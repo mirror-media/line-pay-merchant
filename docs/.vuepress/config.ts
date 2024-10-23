@@ -9,17 +9,17 @@ const googleStructuredDataString = `
   "@context" : "http://schema.org",
   "@type" : "SoftwareApplication",
   "name" : "LINE Pay Merchant",
-  "url" : "https://github.com/enylin/line-pay-merchant",
+  "url" : "https://github.com/mirror-media/line-pay-merchant",
   "author" : {
-    "@type" : "Person",
-    "name" : "Sean Lin"
+    "@type" : "Organization",
+    "name" : "MirrorMedia"
   },
   "datePublished" : "2022-06-09T06:15:47",
   "publisher" : {
     "@type" : "Organization",
-    "name" : "Sean Lin"
+    "name" : "MirrorMedia"
   },
-  "downloadUrl" : "https://www.npmjs.com/package/line-pay-merchant",
+  "downloadUrl" : "https://www.npmjs.com/package/@mirrormedia/line-pay-merchant",
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -60,7 +60,7 @@ export default defineUserConfig({
 
   plugins: [
     sitemapPlugin({
-      hostname: 'https://enylin.github.io/line-pay-merchant'
+      hostname: 'https://mirror-media.github.io/line-pay-merchant'
     })
   ],
 
@@ -104,11 +104,11 @@ export default defineUserConfig({
             children: [
               {
                 text: 'npm',
-                link: 'https://www.npmjs.com/package/line-pay-merchant'
+                link: 'https://www.npmjs.com/package/@mirrormedia/line-pay-merchant'
               },
               {
                 text: 'Yarn',
-                link: 'https://yarnpkg.com/package/line-pay-merchant'
+                link: 'https://yarnpkg.com/package/@mirrormedia/line-pay-merchant'
               }
             ]
           }
@@ -116,7 +116,7 @@ export default defineUserConfig({
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/enylin/line-pay-merchant'
+        link: 'https://github.com/mirror-media/line-pay-merchant'
       }
     ],
     sidebar: {

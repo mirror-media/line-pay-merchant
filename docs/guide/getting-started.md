@@ -39,7 +39,7 @@ yarn add line-pay-merchant
 Or build from source:
 
 ```sh:no-line-numbers
-git clone https://github.com/enylin/line-pay-merchant
+git clone https://github.com/mirror-media/line-pay-merchant
 cd line-pay-merchant
 npm install
 npm run build

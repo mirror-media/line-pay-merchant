@@ -1,11 +1,11 @@
 # line-pay-merchant
 
 ![NPM](https://img.shields.io/npm/l/line-pay-merchant)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/enylin/line-pay-merchant/ci/main)
-![codecov](https://codecov.io/gh/enylin/line-pay-merchant/branch/main/graph/badge.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/enylin/line-pay-merchant)
-![npm](https://img.shields.io/npm/dt/line-pay-merchant)
-![npm](https://img.shields.io/npm/v/line-pay-merchant)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mirror-media/line-pay-merchant/ci/main)
+![codecov](https://codecov.io/gh/mirror-media/line-pay-merchant/branch/main/graph/badge.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mirror-media/line-pay-merchant)
+![npm](https://img.shields.io/npm/dt/@mirrormedia/line-pay-merchant)
+![npm](https://img.shields.io/npm/v/@mirrormedia/line-pay-merchant)
 
 LINE Pay V3 Online APIs library for Node.js
 
@@ -102,10 +102,11 @@ Response:
 
 ## Changelog
 
-Please visit [Changelog](https://github.com/enylin/line-pay-merchant/blob/main/CHANGELOG.md).
+Please visit [Changelog](https://github.com/mirror-media/line-pay-merchant/blob/main/CHANGELOG.md).
 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2020-present, Sean Lin
+Copyright (c) 2024-present, MirrorMedia
