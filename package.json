@@ -64,14 +64,14 @@
     "@commitlint/config-conventional": "^15.0.0",
     "@types/crypto-js": "^4.0.2",
     "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.10",
+    "@types/node": "^16.18.115",
     "@types/uuid": "^8.3.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
-    "@vuepress/bundler-vite": "^2.0.0-rc.18",
-    "@vuepress/plugin-back-to-top": "^2.0.0-rc.56",
-    "@vuepress/plugin-sitemap": "^2.0.0-rc.56",
-    "@vuepress/theme-default": "^2.0.0-rc.56",
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/plugin-back-to-top": "2.0.0-rc.56",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.56",
+    "@vuepress/theme-default": "2.0.0-rc.56",
     "axios-mock-adapter": "^1.20.0",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
@@ -88,7 +88,7 @@
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2",
-    "vuepress": "^2.0.0-rc.18"
+    "vuepress": "2.0.0-rc.18"
   },
   "config": {
     "commitizen": {
