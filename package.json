@@ -53,7 +53,7 @@
   },
   "homepage": "https://enylin.github.io/line-pay-merchant/",
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
+    "@commitlint/cli": "^19.5.0",
     "@commitlint/config-angular": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@types/crypto-js": "^4.0.2",
