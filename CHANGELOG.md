@@ -1,3 +1,11 @@
+# [1.0.0](https://github.com/mirror-media/line-pay-merchant/compare/v0.9.0...v1.0.0) (2024-10-23)
+
+### Features
+* **node:** set Node.js version upper limit to 20 ([5f08f9d](https://github.com/mirror-media/line-pay-merchant/commit/5f08f9db78eb383ae1f2332299ee3b2bf919afb8))
+* **docs:** update author related information ([8d933c8](https://github.com/mirror-media/line-pay-merchant/commit/8d933c84484aa9ca20fe66d0af18c72279a6cec4))
+
+
+
 # [0.9.0](https://github.com/enylin/line-pay-merchant/compare/v0.8.0...v0.9.0) (2022-06-09)
 
 
